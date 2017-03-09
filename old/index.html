@@ -1,0 +1,475 @@
+<html>
+<head>
+	<meta property="og:title" content="Prometheus by IECSE" />
+    <meta property="og:description" content="Prometheus is the annual Technical Fest of IECSE. The technical extravaganza will begin on the 1st of April and will continue till the 3rd. We have planned eight events for Prometheus 5.0 which includes both technical and non technical competitions. In the previous years we have seen participation in mass numbers in all events and we expect an even greater turn up this time. It's 'Gods amongst men' this time. So as we say, let the games begin!" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://iecse.xyz/prometheus" />
+    <meta property="og:image" content="https://iecse.xyz/prometheus/logo.png" />
+    <title>
+        Prometheus V - Gods Amongst Men | By IE CSE - MIT's Official CS Club
+    </title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="logo.png">
+    <style>
+        
+        @font-face {
+            font-family: roman;
+            src: url('roman.ttf');
+        }
+
+        @font-face {
+            font-family: roboto;
+            src: url('Roboto-Light.ttf');
+        }
+        html, body {
+            width: 100%;\
+            padding: 0;
+            border: 0;
+            margin: 0;
+            background: url('bg.png') #EEEEEE;
+            background-size: 300px 300px;
+
+            text-align: center;
+        }
+
+        .googleForm {
+            width: 200px;
+            background: #4F100C;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+            margin: 0 auto;
+            font-family: codeLight;
+            color: #DDD;
+            padding: 15px;
+            box-sizing: border-box;
+            text-align: center;
+            font-size: 25px;
+            margin-top: 60px;
+            cursor: pointer;
+            transition: all ease .5s;
+        }
+
+        .googleForm:hover {
+            box-shadow: 0px 0px 20px rgba(0, 0, 0, 1);
+            color: #FFF;
+        }
+
+        .bounce {
+            -moz-animation: bounce 2s infinite;
+            -webkit-animation: bounce 2s infinite;
+            animation: bounce 2s infinite;
+        }
+
+        @keyframes bounce {
+            0%, 20%, 50%, 80%, 100% {
+                -moz-transform: translateY(0);
+                -ms-transform: translateY(0);
+                -webkit-transform: translateY(0);
+                transform: translateY(0);
+            }
+            40% {
+                -moz-transform: translateY(-30px);
+                -ms-transform: translateY(-30px);
+                -webkit-transform: translateY(-30px);
+                transform: translateY(-30px);
+            }
+            60% {
+                -moz-transform: translateY(-15px);
+                -ms-transform: translateY(-15px);
+                -webkit-transform: translateY(-15px);
+                transform: translateY(-15px);
+            }
+        }
+
+        .container {
+            width: 80%;
+            min-width: 1000px;
+            background: #FFFFFF;
+            box-shadow: 0px 0px 20px rgba(0, 0, 0, .2);
+            box-sizing: border-box;
+            margin: 0 auto;
+            margin-top: 40px;
+            margin-bottom: 40px;
+            font-family: josefinSans;
+        }
+
+        .iecse-logo {
+            width: 150px;
+            height: 150px;
+            margin-bottom: 20px;
+        }
+        .intro {
+            padding: 70px 100px 70px 100px;
+            font-size: 23px;
+
+            color: #555;
+            font-family: roboto;
+        }
+
+        a, a:hover, a:visited {
+            text-decoration: none;
+        }
+
+		
+		.headerTitle {
+			font-family: roman;
+			font-size: 75px;
+			letter-spacing: -7px;
+			margin-top: -40px;
+			color: #222;
+		}
+		
+		.headerSubTitle {
+			color: #971C1C;
+			letter-spacing: -3px;
+			font-family: roman;
+			margin-top: 10px;
+			font-size: 30px;
+		}
+		
+		.headerSubSubTitle {
+			color: #777;
+			letter-spacing: -3px;
+			font-family: roman;
+			margin-top: 10px;
+			font-size: 25px;
+		}
+		
+		.headerLeft {
+			position: absolute;
+			left: 200px;
+			width: 150px;
+			top: 300px;
+			opacity: .25;
+		}
+		.headerRight {
+			position: absolute;
+			
+			opacity: .25;
+			top: 300px;
+			width: 150px;
+			right: 200px;
+		}
+		
+		.introTitle {
+			font-family: roman;
+			color: #EEE;
+			font-size: 60px;
+			margin-bottom: 30px;
+		}
+		.introText {
+			color: #EEE;
+			font-family: roboto;
+			width: 80%;
+			margin: 0 auto;
+			
+		}
+		
+		
+    </style>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.9.1/jquery-ui.min.js"></script>
+
+	<script type="text/javascript" src="jquery.slimscroll.min.js"></script>
+	
+	<link rel="stylesheet" type="text/css" href="jquery.fullPage.css" />
+
+	<script type="text/javascript" src="jquery.adaptive-backgrounds.js"></script>
+	<script type="text/javascript" src="jquery.fullPage.min.js"></script>
+
+	<script type="text/javascript">
+	var defaults      = {
+	  selector:             '[data-adaptive-background="1"]',
+	  parent:               null,
+	  exclude:              [ 'rgb(0,0,0)', 'rgba(255,255,255)' ],
+	  normalizeTextColor:   true,
+	  normalizedTextColors:  {
+		light:      "#fff",
+		dark:       "#000"
+	  },
+	  lumaClasses:  {
+		light:      "ab-light",
+		dark:       "ab-dark"
+	  }
+	};
+
+	
+		$(document).ready(function(){
+			$.adaptiveBackground.run(defaults);
+		});
+		
+		$(document).ready(function() {
+			$('#fullpage').fullpage({
+				anchors: ['Landing', 'Introduction', 'Events', 'Posters','Contact', 'Sponsors'],
+				sectionsColor: ['#DDDDDD', '#971C1C', '#EEE', '#46786c','#0E3B53','#333'],
+				navigation: true,
+				navigationPosition: 'right',
+				navigationTooltips: ['Landing','Introduction','Events','Posters','Contact','Sponsors'],
+				normalScrollElements: ['#section2'],
+                autoScrolling: false,
+                fitToSection: false
+			});
+		});
+		
+		</script>
+		
+		
+</head>
+
+<body>
+
+
+<div id="fullpage">
+	<div class="section " id="section0" style="background: url('paper.png');">
+		<div class="intro">
+			<img src='logo.png' style='width: 350px; height: 350px; margin: 0 auto;'>
+			<div class='headerTitle'>Prometheus V</div>
+			<div class='headerSubTitle'>Gods Amongst Men</div>
+			
+				<div class='dates' style='color: #333;'>
+			April 1st-3rd
+			</div>
+			<div class='headerSubSubTitle'>By IE CSE</div>
+			
+			<img src='header-left.png' class='headerLeft'>
+			<img src='header-right.png' class='headerRight'>	
+			<i class='fa fa-angle-down bounce ' style=' margin-top: 60px; font-size: 75px; color: rgba(0,0,0, 0.7);'></i>
+		</div>
+	</div>
+	<div class="section" id="section1" style="background: url('clouds.png') no-repeat; background-size: 100% auto; ">
+	   	<div class="intro">
+			<img src='beard.png' style='width: 270px; opacity: 1; margin: 0 auto;'>
+			<div class='introTitle'>PROMETHEUS V</div>
+			<div class='introText'>
+			Prometheus is the annual Technical Fest of IECSE. 
+			This is the fifth time the fest will be organized by the club. 
+			The technical extravaganza will begin on the 1st of April and will continue till the 3rd.
+			We have planned eight events for Prometheus 5.0 which includes both technical and non technical competitions. 
+			In the previous years we have seen participation in mass numbers in all events and we expect an even greater turn up this time.
+			<br><br>
+			It's 'Gods amongst men' this time. So as we say,<br>
+			Let the games begin!
+			</div>
+		</div>
+	</div>
+	
+	<div class="section" id="section2"; ">
+		<div class="intro">
+			<div class='introTitle' style='color: #333;'>EVENTS</div>
+			<div class='event-container'>
+				<div class='event'>
+					<img src='images/hawkeye.png' data-adaptive-background="1" class='eventImage'>
+					<div class='eventTitle'>
+					HawkEye
+					</div>
+					<div class='eventDesc' >
+					HawkEye is an online scavenging hunt where you match wits against hundreds of participants solving cryptic puzzles and collecting small but vital clues to advance through the levels.
+					</div>
+				</div>
+				<div class='event'>
+					<img src='images/bugs.png' data-adaptive-background="1" class='eventImage'>
+					<div class='eventTitle'>
+					Pandoras Bugs
+					</div>
+					<div class='eventDesc' >
+					Track bugs all the way! A team event, where the first round comprises tracking bugs in short code snippets, with certain restrictions.
+					Find them, squash them, squash them again.
+					</div>
+				</div>
+				<div class='event'>
+					<img src='images/dawnofjustice.png' data-adaptive-background="1" class='eventImage'>
+					<div class='eventTitle'>
+					Dawn of Justice
+					</div>
+					<div class='eventDesc' >
+					After a screening test is done, Different teams will be alloted different superheroes which have special powers. Using those powers to their advantage, teams need to code to bag the winning position.
+					</div>
+				</div>
+				<div class='event'>
+					<img src='images/OnlineCoding.png' data-adaptive-background="1" class='eventImage'>
+					<div class='eventTitle'>
+					Online Coding
+					</div>
+					<div class='eventDesc' >
+					Enjoyed participating in competitions on Hackerrank and CodeChef?
+					Immerse yourself in mind boggleing coding questions on an online judge for 3 days straight.
+					</div>
+				</div>
+				<div class='event'>
+					<img src='images/bamboozled.png' data-adaptive-background="1" class='eventImage'>
+					<div class='eventTitle'>
+					Bamboozled
+					</div>
+					<div class='eventDesc' >
+					MIT's first ever game show! Again. This time, bigger, better, crazier. Come join the madness and be part of an event you'll never forget.</div>
+				</div>
+				<div class='event'>
+					<img src='images/artem.png' data-adaptive-background="1" class='eventImage'>
+					<div class='eventTitle'>
+					Artem
+					</div>
+					<div class='eventDesc' >
+					Love designing and drawing? Test your graphic design skills in this 2-round event.</div>
+				</div>
+				
+				<div class='event'>
+					<img src='images/pp.png' data-adaptive-background="1" class='eventImage'>
+					<div class='eventTitle'>
+					Paper Presentation
+					</div>
+					<div class='eventDesc' >
+					he paper presentation is an opportunity to every participant to showcase an idea that can change it's current perception.
+					There is a chance for every idea to be showcased and presented to the world.</div>
+				</div>
+				
+				<div class='event'>
+					<img src='images/port80.png' data-adaptive-background="1" class='eventImage'>
+					<div class='eventTitle'>
+					PORT:80
+					</div>
+					<div class='eventDesc' >
+					First ever Web Dev event. Think you can build front ends and backends? Come, prove your skills and become a god.</div>
+				</div>
+				
+			</div>
+		</div>
+	</div>
+	
+	<style>
+	
+	.eventImage {
+		width: 200px; 
+		height: 200px;
+		margin: 0 auto;
+	}
+	
+	.eventTitle {
+		font-size: 30px;
+		margin-top: 5px;
+		font-weight: bold;
+		text-transform: uppercase;
+	}
+	.eventDesc {
+		font-size: 18px;
+		width: 90%;
+		margin: 0 auto;
+	}
+	.event-container {
+		width: 100%;
+		margin: 0 auto;
+		display: inline-block;
+		margin-top: 30px;
+		text-align: center;
+	}
+	
+	.event {
+		padding: 25px;
+		box-sizing: border-box;
+		display: inline-block;
+		vertical-align: middle;
+		width: 500px;
+		background: #DDD;
+		height: 400px;
+		margin: 15px;
+		transition: all ease .2s;
+		cursor: pointer;
+	}
+	
+	.event:hover {
+		box-shadow: 0px 0px 30px rgba(0,0,0,0.4);
+	}
+	
+	.dates {
+		font-size: 25px;
+		color: #EEE;
+		font-family: roman;
+		text-transform: uppercase;
+		margin-top: 10px;
+	}
+	
+	.register {
+	text-transform: uppercase;
+	color: #5A9EAD;
+	
+		font-size: 30px;
+		margin-top: 10px;
+	}
+	
+	.contact {
+		margin-top: 10px;
+		font-size: 22px;
+		text-transform: uppercase;
+		color: #EEE;
+	}
+	
+	.social-icons {
+		font-size: 30px !important;
+		color: #DDD !important;
+		margin-left: 5px;
+		margin-right: 5px;
+	}	
+	
+	.poster {
+		width: 375px; 
+		margin: 15px;
+		display: inline-block;
+		vertical-align: middle;
+		transition: all ease .2s;
+		cursor: pointer;
+	}
+	
+	.poster:hover {
+		box-shadow: 0px 0px 30px rgba(0,0,0,0.4);
+	}
+	
+    </style>
+	
+	<div class="section" id="section21" style="background: url('paper.png');">
+		<img src='zeus.jpg' class='poster'>
+		<img src='poseidon.jpg'class='poster'>
+		<img src='hades.jpg'class='poster'>
+	</div>
+	<div class="section" id="section2" style="background: url('paper.png');">
+		
+		<div class="intro">
+		<img src='logo-filter.png' style='width: 300px; margin: 0 auto; margin-bottom: 30px;'>
+			<div class='headerTitle' style='font-size: 60px; letter-spacing: -5px; color: #EEE;'>Prometheus V</div>
+			<div class='headerSubTitle'  style='font-size: 25px;  letter-spacing: -2px; color: #5A9EAD;'>Gods Amongst Men</div>
+			<div class='dates'>
+			April 1st-3rd
+			</div><br>
+			<div class='register'>
+			<b>Registration & Infodesk at KC</b>
+			</div>
+			
+			<br>
+			<div class='contact'>
+				<span style='color: #5A9EAD'>YASH: </span> +91 99029 59306 
+			</div>
+			<div class='contact'>
+				<span style='color: #5A9EAD'>PRANSHU: </span> +91 72042 67788
+			</div>
+		</div>
+			
+	</div>
+	<div class="section" id="section3" style="background: url('logo-filter-white.png'); background-size: 200px 200px;">
+		<div class="intro">
+			<img src="iecse-logo.png" class="iecse-logo">
+			<div style="width: 100%; color: white;">
+				<span style="color:transparent">WEB</span>WITH &nbsp;<i class="fa fa-heart"></i>&nbsp; FROM <b>IE CSE <span style="color:transparent;">WEB</span></b><br><br>
+					
+					<a target="_blank" href="https://www.facebook.com/iecsemanipal/"><i class="fa social-icons fa-facebook-square"></i></a>
+                    <a target="_blank" href="https://twitter.com/iecsemanipal"><i class="fa  social-icons fa-instagram"></i></a>
+                    <i class="fa social-icons  fa-twitter-square"></i>
+                    <i class="fa  social-icons fa-youtube-square"></i>
+
+			</div>
+		</div>
+	</div>
+</div>
+
+</body>
+
+</html>

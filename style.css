@@ -1,0 +1,241 @@
+  
+@font-face {
+    font-family: roman;
+    src: url('roman.ttf');
+}
+
+@font-face {
+    font-family: roboto;
+    src: url('Roboto-Light.ttf');
+}
+html, body {
+    width: 100%;\
+    padding: 0;
+    border: 0;
+    margin: 0;
+    background: url('../viewable/bg.png') #EEEEEE;
+    background-size: 300px 300px;
+
+    text-align: center;
+}
+
+.googleForm {
+    width: 200px;
+    background: #4F100C;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+    margin: 0 auto;
+    font-family: codeLight;
+    color: #DDD;
+    padding: 15px;
+    box-sizing: border-box;
+    text-align: center;
+    font-size: 25px;
+    margin-top: 60px;
+    cursor: pointer;
+    transition: all ease .5s;
+}
+
+.googleForm:hover {
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 1);
+    color: #FFF;
+}
+
+.bounce {
+    -moz-animation: bounce 2s infinite;
+    -webkit-animation: bounce 2s infinite;
+    animation: bounce 2s infinite;
+}
+
+@keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {
+        -moz-transform: translateY(0);
+        -ms-transform: translateY(0);
+        -webkit-transform: translateY(0);
+        transform: translateY(0);
+    }
+    40% {
+        -moz-transform: translateY(-30px);
+        -ms-transform: translateY(-30px);
+        -webkit-transform: translateY(-30px);
+        transform: translateY(-30px);
+    }
+    60% {
+        -moz-transform: translateY(-15px);
+        -ms-transform: translateY(-15px);
+        -webkit-transform: translateY(-15px);
+        transform: translateY(-15px);
+    }
+}
+
+.container {
+    width: 80%;
+    min-width: 1000px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, .2);
+    box-sizing: border-box;
+    margin: 0 auto;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    font-family: josefinSans;
+}
+
+.iecse-logo {
+    width: 150px;
+    height: 150px;
+    margin-bottom: 20px;
+}
+.intro {
+    padding: 70px 100px 70px 100px;
+    font-size: 23px;
+
+    color: #555;
+    font-family: roboto;
+}
+
+a, a:hover, a:visited {
+    text-decoration: none;
+}
+
+
+.headerTitle {
+ font-family: roman;
+ font-size: 75px;
+ letter-spacing: -7px;
+ margin-top: -40px;
+ color: #222;
+}
+
+.headerSubTitle {
+ color: #971C1C;
+ letter-spacing: -3px;
+ font-family: roman;
+ margin-top: 10px;
+ font-size: 30px;
+}
+
+.headerSubSubTitle {
+ color: #777;
+ letter-spacing: -3px;
+ font-family: roman;
+ margin-top: 10px;
+ font-size: 25px;
+}
+
+.headerLeft {
+ position: absolute;
+ left: 200px;
+ width: 150px;
+ top: 300px;
+ opacity: .25;
+}
+.headerRight {
+ position: absolute;
+ 
+ opacity: .25;
+ top: 300px;
+ width: 150px;
+ right: 200px;
+}
+
+.introTitle {
+ font-family: roman;
+ color: #EEE;
+ font-size: 60px;
+ margin-bottom: 30px;
+}
+.introText {
+ color: #EEE;
+ font-family: roboto;
+ width: 80%;
+ margin: 0 auto;
+ 
+}
+.eventImage {
+    width: 200px; 
+    height: 200px;
+    margin: 0 auto;
+}
+
+.eventTitle {
+    font-size: 30px;
+    margin-top: 5px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.eventDesc {
+    font-size: 18px;
+    width: 90%;
+    margin: 0 auto;
+}
+.event-container {
+    width: 100%;
+    margin: 0 auto;
+    display: inline-block;
+    margin-top: 30px;
+    text-align: center;
+}
+
+.event {
+    padding: 25px;
+    box-sizing: border-box;
+    display: inline-block;
+    vertical-align: middle;
+    width: 500px;
+    background: #DDD;
+    height: 400px;
+    margin: 15px;
+    transition: all ease .2s;
+    cursor: pointer;
+}
+
+.event:hover {
+    box-shadow: 0px 0px 30px rgba(0,0,0,0.4);
+}
+
+.dates {
+    font-size: 25px;
+    color: #EEE;
+    font-family: roman;
+    text-transform: uppercase;
+    margin-top: 10px;
+}
+
+.register {
+    text-transform: uppercase;
+    color: #5A9EAD;
+    
+    font-size: 30px;
+    margin-top: 10px;
+}
+
+.contact {
+    margin-top: 10px;
+    font-size: 22px;
+    text-transform: uppercase;
+    color: #EEE;
+}
+
+.social-icons {
+    font-size: 30px !important;
+    color: #DDD !important;
+    margin-left: 5px;
+    margin-right: 5px;
+}   
+
+.poster {
+    width: 375px; 
+    margin: 15px;
+    display: inline-block;
+    vertical-align: middle;
+    transition: all ease .2s;
+    cursor: pointer;
+}
+
+.poster:hover {
+    box-shadow: 0px 0px 30px rgba(0,0,0,0.4);
+}
+.eventImage {
+    width: 200px; 
+    height: 200px;
+    margin: 0 auto;
+}
